@@ -4,7 +4,8 @@ export type Person = {
 
 //default  number = 10 
 export const makePerson = (name: string, age: number = 10) : Person => {
-    const person = {name: name, age: age}
+    // const person = {name: name, age: age}
+    const person = {name, age}
     return person
 }
 
